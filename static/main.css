@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+
+.titulo {
+    font-family: 'Playfair Display', serif; /* Usa la fuente Playfair Display */
+    font-size: 24px; /* Tamaño de fuente del título (ajusta según tu preferencia) */
+    text-align: center; /* Alineación centrada */
+    margin-top: 100px; /* Margen superior para centrar verticalmente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+span{
+    font-size: 12px; /* cambia el tamaño de la fuente del elemento span a 16 pixeles */
+}
+
+.tarea_hecha {
+    text-decoration: line-through;  /* linea continua en tarea hecha */
+    color: #cfcfcf;
+}
